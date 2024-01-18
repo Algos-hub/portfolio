@@ -1,0 +1,27 @@
+.rail {
+  color: white;
+  width: 88px;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0 20px 0;
+}
+
+.navigation {
+  height: 90%;
+  width: 88px;
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+@media (max-width: 960px) {
+  .rail {
+    display: none;
+  }
+}

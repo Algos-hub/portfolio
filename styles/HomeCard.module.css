@@ -1,0 +1,19 @@
+.container {
+  width: 100%;
+  border-radius: 25px;
+  min-height: 434px;
+  text-decoration: none;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.image {
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 25px;
+}
+
+.container:hover {
+  background-color: var(--md-sys-color-primary-container);
+  transition: 0.3s;
+}

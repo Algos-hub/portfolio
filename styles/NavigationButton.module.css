@@ -1,0 +1,16 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  /* flex-direction: column; */
+  justify-content: center;
+  cursor: pointer;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.filled {
+  display: flex;
+  grid-column: 1/1;
+  grid-row: 1/1;
+  justify-content: center;
+}

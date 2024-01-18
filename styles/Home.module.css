@@ -1,0 +1,93 @@
+.banner {
+  background-image: url("../public/banners/home_banner_light.jpg");
+  background-size: cover;
+  background-position: center 0;
+  width: 100%;
+  height: 500px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.bannerDark {
+  background-image: url("../public/banners/home_banner_dark.jpg");
+  background-size: cover;
+  background-position: center 0;
+  width: 100%;
+  height: 500px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.description {
+  width: 80%;
+  text-align: center;
+  margin: 20px 0 30px 0;
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  padding-inline: 48px;
+  width: 100%;
+}
+
+.highlights {
+  padding-inline: 10px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  max-width: 1200px;
+}
+
+.bannerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  padding: 10px;
+}
+
+.main {
+  padding-left: 88px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: fit-content;
+}
+
+@media (max-width: 960px) {
+  .main {
+    padding-left: 0;
+    padding-top: 64px;
+  }
+}
+
+/* @media (max-width: 1300px) {
+  .content {
+    width: 100%;
+  }
+} */
+@media (max-width: 600px) {
+  .highlights {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

@@ -1,0 +1,30 @@
+.nav {
+  height: 64px;
+  width: 100%;
+  position: fixed;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+}
+
+.buttons {
+  display: inline-flex;
+  padding: 8px 12px;
+  align-items: center;
+}
+
+.name {
+  margin-left: 15px;
+}
+
+@media (max-width: 600px) {
+  .name {
+    display: none;
+  }
+}
+
+@media (min-width: 960px) {
+  .nav {
+    display: none;
+  }
+}

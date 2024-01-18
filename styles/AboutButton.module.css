@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  max-width: 640px;
+  width: 100%;
+  border-radius: 25px;
+  min-height: 112px;
+  height: 100%;
+  text-decoration: none;
+  transition: 0.3s;
+  margin: 5px 0 5px 0;
+  cursor: pointer;
+}
+
+.image {
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 25px;
+}
+
+.container:hover {
+  background-color: var(--md-sys-color-primary-container);
+  transition: 0.3s;
+}
