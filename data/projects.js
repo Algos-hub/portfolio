@@ -3,7 +3,7 @@ const projects = [
     img: "/highlight_1.png",
     title: "Pokedex",
     description:
-      "A simple pokedex indexing all 1018 pokemon with all of their stats and basic evolutions.",
+      "A simple pokedex indexing the first 1018 pokemon with all of their stats and basic evolutions.",
     path: "https://pokedex-eight-omega-40.vercel.app/",
   },
   {
@@ -26,6 +26,13 @@ const projects = [
     description:
       "A simple dating app mockup made with React-Native and a Firebase database.",
     path: "https://github.com/Algos-hub/croc-lov-fe",
+  },
+  {
+    img: "/highlight_5.png",
+    title: "RePokedex",
+    description:
+      "An updated version of my first pokedex, made using NextJs, indexing the all 1025 pokemon, with more features",
+    path: "https://repokedex.vercel.app/",
   },
 ];
 
