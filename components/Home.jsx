@@ -57,10 +57,10 @@ export default function Home({ darkMode }) {
           </h1>
           <div className={style.highlights}>
             <HomeCard
-              img="/highlight_4.png"
+              img="/highlight_5.png"
               title="Latest project"
-              description="A simple dating app mockup made with React-Native and a Firebase database."
-              path="https://github.com/Algos-hub/croc-lov-fe"
+              description="An updated version of my first pokedex, made using NextJs, indexing the all 1025 pokemon, with more features."
+              path="https://repokedex.vercel.app/"
             />
             <HomeCard
               img="/Pedro.jpg"

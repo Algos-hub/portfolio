@@ -31,7 +31,7 @@ const projects = [
     img: "/highlight_5.png",
     title: "RePokedex",
     description:
-      "An updated version of my first pokedex, made using NextJs, indexing the all 1025 pokemon, with more features",
+      "An updated version of my first pokedex, made using NextJs, indexing the all 1025 pokemon, with more features.",
     path: "https://repokedex.vercel.app/",
   },
 ];
