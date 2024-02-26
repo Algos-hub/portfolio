@@ -1,17 +1,10 @@
 const projects = [
   {
-    img: "/highlight_1.png",
-    title: "Pokedex",
+    img: "/highlight_5.png",
+    title: "RePokedex",
     description:
-      "A simple pokedex indexing the first 1018 pokemon with all of their stats and basic evolutions.",
-    path: "https://pokedex-eight-omega-40.vercel.app/",
-  },
-  {
-    img: "/highlight_2.png",
-    title: "Random Recipe Generator",
-    description:
-      "A website that displays a random recipe from the themealdb api with the ingredients list, the instructions and a video tutorial if available.",
-    path: "https://random-recipe-generator-two.vercel.app/",
+      "An updated version of my first pokedex, made using NextJs, indexing the all 1025 pokemon, with more features.",
+    path: "https://repokedex.vercel.app/",
   },
   {
     img: "/highlight_3.png",
@@ -28,11 +21,18 @@ const projects = [
     path: "https://github.com/Algos-hub/croc-lov-fe",
   },
   {
-    img: "/highlight_5.png",
-    title: "RePokedex",
+    img: "/highlight_2.png",
+    title: "Random Recipe Generator",
     description:
-      "An updated version of my first pokedex, made using NextJs, indexing the all 1025 pokemon, with more features.",
-    path: "https://repokedex.vercel.app/",
+      "A website that displays a random recipe from the themealdb api with the ingredients list, the instructions and a video tutorial if available.",
+    path: "https://random-recipe-generator-two.vercel.app/",
+  },
+  {
+    img: "/highlight_1.png",
+    title: "Pokedex",
+    description:
+      "A simple pokedex indexing the first 1018 pokemon with all of their stats and basic evolutions.",
+    path: "https://pokedex-eight-omega-40.vercel.app/",
   },
 ];
 
