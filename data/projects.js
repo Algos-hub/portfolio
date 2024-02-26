@@ -7,18 +7,18 @@ const projects = [
     path: "https://repokedex.vercel.app/",
   },
   {
-    img: "/highlight_3.png",
-    title: "Moviz",
-    description:
-      "A website mockup that displays the latest 20 movies alongside their ratings from the themoviedb api.",
-    path: "https://moviz-jw85.vercel.app/",
-  },
-  {
     img: "/highlight_4.png",
     title: "CrocLov",
     description:
       "A simple dating app mockup made with React-Native and a Firebase database.",
     path: "https://github.com/Algos-hub/croc-lov-fe",
+  },
+  {
+    img: "/highlight_3.png",
+    title: "Moviz",
+    description:
+      "A website mockup that displays the latest 20 movies alongside their ratings from the themoviedb api.",
+    path: "https://moviz-jw85.vercel.app/",
   },
   {
     img: "/highlight_2.png",
